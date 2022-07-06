@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Artowrk!</title>
+<title>Feedback Form!</title>
 <style>
 .button {
     border: none;
@@ -64,7 +64,7 @@
     background-color: #60175a;
     color:white;
   }
-  .button9 {
+.button9 {
     background-color: rgb(254, 110, 201);
     color: black;
 }
@@ -74,7 +74,7 @@
   }
 </style>
 </head>
-<body style="background-color:#f4fcd4"> 
+<body style="background-color:#fce3d4"> 
 <a href="../index.html" class="button button2">Home</a>
 <a href="aboutme.html" class="button button3">About me</a>
 <a href="projects.html" class="button button5">Projects</a>
@@ -83,18 +83,18 @@
 <a href="makeup.html" class="button button8">Makeup</a>
 <a href="form.html" class="button button9">Feedback Form</a>
 <hr>
-<h1>My artwork!</h1>
-<p>I left most of my artwork in Chicago and I didn't take pictures of them, so this page will look sad for a while 
-<a style="font-size:20px">
-  &#128528;
-</a>
-</p>
-<h2>Digital art</h2>
-<p></p>
-<h2>Painting</h2>
-<p></p>
-<h2>Drawing</h2>
-<p></p>
-<p> This page is still in progress. Come back later for new content! </p>
+<h1>Feedback form</h1>
+<form 
+  method="POST" 
+  action="https://script.google.com/macros/s/AKfycbwR_Ejp5TN3zJFAw4y6ndQhwUUWvuPzMyNln3vTYar5QHpYJVZDRDlSZQYaSIganVYO/exec"
+>
+  <input name="Date" type="text" placeholder="Date" required>
+  <input name="Name" type="text" placeholder="Name" required>
+  <input name="Rating" type="text" placeholder="Rating" required>
+  <input name="Improvements" type="text" placeholder="Improvements" required>
+  <input name="Feedback" type="text" placeholder="Feedback" required>
+  <button type="submit">Send</button>
+</form>
+
 </body>
 </html>
