@@ -4,6 +4,28 @@
 <meta charset="UTF-8">
 <title>Charlotte's Website!</title>
 <style>
+.marquee {
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+}
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 10s linear infinite;
+}
+.marquee2 span {
+  animation-delay: 5s;
+}
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
 .button { /* creating buton */
     border: none;
     color: rgb(255, 255, 255);
@@ -124,26 +146,28 @@
 <a href="html/contactme.html" class="button button11">Contact Me</a>
 <hr>
 <p> </p>
-<p>Hi! My name is Charlotte! This is my first website and I hope you enjoy :)
-<a style="font-size:20px">
-  &#128151;
-</a>
-<marquee><a style="font-size:40px"> &#129414; </marquee>
+<p>Hi! My name is Charlotte! This is my website and I hope you enjoy :)
+<a style="font-size:20px"> &#128151; </a> </p>
+<p>
+  <p class="marquee"> <a style="font-size:40px">
+    <span>&#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414;&nbsp;</span></a>
+  </p>
+  <p class="marquee marquee2"> <a style="font-size:40px">
+    <span>&#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414; &#129414;&nbsp;</span></a>
+  </p>
 </p>
-<img src="https://c.tenor.com/6O4E2Sali38AAAAd/duck-swing.gif" alt="I like ducks">
+<p style="color:#e7ddff"> hello </p>
+<p style="color:#e7ddff"> hello </p>
+<p><img src="https://c.tenor.com/6O4E2Sali38AAAAd/duck-swing.gif" alt="I like ducks"></p>
 <p> </p>
-<details>
-<summary>Open me!</summary>
+<details> <summary>Open me!</summary>
 <p>ur mom</p>
-<img src="kekw.jpg" alt="kekw">
-</details>
+<img src="kekw.jpg" alt="kekw"> </details>
 <p> </p>
 <a href="https://www.youtube.com/watch?v=lbpCwsZEdW4" class="button button1">Click me!</a>
 <!-- <a href="tel:2242167423" class="button button2">Call Charlotte</a>  -->
 <p> </p>
-<a style="font-size:70px">
-&#128511; &#128511; &#128511; &#128511;
-</a>
+<!-- <a style="font-size:70px"> &#128511; &#128511; &#128511; &#128511; </a>
 <a style="font-size:30px">
 <p></p>
 &#129414; 
@@ -164,8 +188,7 @@
 <p></p>
 &#129414;
 <p></p>
-</a>
-
-<SPAN STYLE="background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/f5/Cool_waters_of_the_turquoise_blue_Aegean_Sea_-_Ayval%C4%B1k_-_panoramio.jpg)">NoBoringHighlight…</SPAN>
+</a> -->
+<!-- <SPAN STYLE="background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/f5/Cool_waters_of_the_turquoise_blue_Aegean_Sea_-_Ayval%C4%B1k_-_panoramio.jpg)">NoBoringHighlight…</SPAN> -->
 </body>
 </html>
